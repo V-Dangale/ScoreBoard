@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    
+    <title>ScoreBoard</title>
+    <head>
+        <link rel="stylesheet" href="score.css">
+    </head>
+   
+   
+    <body>
+       
+        <div class="container">
+           
+            <div>
+                <h3>HOME</h3>
+                <div id="scoreH">0</div>
+                <button class="addScore" onclick="add1H()">+1</button>
+                <button class="addScore" onclick="add2H()">+2</button>
+                <button class="addScore" onclick="add3H()">+3</button>
+                <br>
+                <button id="resetH" onclick="resetH()">RESET</button>
+            </div>
+           
+            <div>
+                <h3>GUEST</h3>
+                <div id="scoreG">0</div>
+                <button class="addScore" onclick="add1G()">+1</button>
+                <button class="addScore" onclick="add2G()">+2</button>
+                <button class="addScore" onclick="add3G()">+3</button>
+                <br>
+                <button id="resetG" onclick="resetG()">RESET</button>
+            </div>
+      
+            
+        </div>
+        
+        
+        
+        
+        
+        
+        <script src="score.js"></script>
+    </body>
+</html>
